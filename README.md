@@ -12,10 +12,10 @@ This project is a walkthrough of how I set up an Active Directory Home Lab using
 - Hyper-V
 - Windows Server 2025
 - Windows Pro Workstation
-
+  
 <h2>Walkthrough:</h2>
 
-I used two different virtual network adapters on the Virtual Machines. The default switch that utilizes NAT to access my host machine's network was used to install and update Windows Server 2025 and Windows 11 Pro.
+I used two different virtual network adapters on the virtual machines. The default switch on Hyper-V that utilizes NAT to access my host machine's network was used to install and update Windows Server 2025.
 <img width="898" height="857" alt="image" src="https://github.com/user-attachments/assets/ac2ecbbc-ba61-4f2a-b977-c0a344fcba40" />
 <img width="900" height="856" alt="image" src="https://github.com/user-attachments/assets/97cddbda-afea-4386-8d85-6cd33fe644bc" />
 
@@ -23,9 +23,14 @@ Using Server Manager I installed Active Directory Domain Services with the Add R
 <img width="1886" height="826" alt="image" src="https://github.com/user-attachments/assets/9352efdf-39be-4e0f-a5a3-d6573645a392" />
 <img width="1891" height="831" alt="image" src="https://github.com/user-attachments/assets/3ac7e071-7647-435b-bf80-7e0b1b9d3eb7" />
 
-
-
-A private virtual switch was necessary for the Domain Controller to communicate with other Virtual Machines because the default network adapter would change the subnet or gateway after reboots.
+A private virtual switch, that I named "AD-Static-Switch", was necessary for the Domain Controller to communicate with other Virtual Machines because the default network adapter would change the subnet or gateway after reboots.
 <img width="895" height="851" alt="image" src="https://github.com/user-attachments/assets/5d1c77a8-8c32-458d-a772-755f128fe0b5" />
 <img width="900" height="855" alt="image" src="https://github.com/user-attachments/assets/cb2ad4b2-32c2-449a-845c-5f1d94b5434e" />
+
+I assigned a static IPv4 address to the domain controller (192.168.0.100), set the subnet mask to 255.255.255.0, used the loopback address 127.0.0.1 as the DNS server, and renamed the PC to "DC01".
+<img width="1826" height="837" alt="image" src="https://github.com/user-attachments/assets/caf2c120-5aaa-4868-9708-31c7bfa566af" />
+<img width="796" height="327" alt="image" src="https://github.com/user-attachments/assets/3fb011f0-7f8e-43ff-8e82-31f8d58032d6" />
+
+On a separate virtual machine I used the default switch to install and update Windows 11 Pro Workstation and named it "PC01".
+
 
