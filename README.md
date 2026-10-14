@@ -17,7 +17,8 @@ This project is a walkthrough of how I set up an Active Directory Home Lab using
 
 I started by creating a virtual machine using Hyper-V with its own virtual disk, installing Windows Server 2025 from an ISO file, updating the OS using the Hyper-V default virtual switch as one of the virtual network adapter and named the virtual machine "DC1".
 <img width="877" height="662" alt="image" src="https://github.com/user-attachments/assets/85bc2a84-659f-4d84-b936-03b37b6d9e83" />
-<img width="427" height="477" alt="image" src="https://github.com/user-attachments/assets/1264fae6-6dc8-494b-aaf3-85d8f2222642" />
+<img width="427" height="238" alt="image" src="https://github.com/user-attachments/assets/66bc89ba-42c8-4a16-b99f-f23093e59160" />
+
 
 
 
@@ -31,8 +32,7 @@ https://github.com/user-attachments/assets/c064db24-9bf1-4ac9-b480-6ad55b160802
 
 https://github.com/user-attachments/assets/8cf801ce-05fc-49bb-bc71-62fddd9c2c77
 
-<img width="1886" height="826" alt="image" src="https://github.com/user-attachments/assets/9352efdf-39be-4e0f-a5a3-d6573645a392" />
-<img width="1891" height="831" alt="image" src="https://github.com/user-attachments/assets/3ac7e071-7647-435b-bf80-7e0b1b9d3eb7" />
+
 
 After rebooting I assigned a static IPv4 address to the domain controller (192.168.0.100), set the subnet mask to 255.255.255.0, used the loopback address 127.0.0.1 as the DNS server, and renamed the PC to "DC01".
 <img width="1826" height="837" alt="image" src="https://github.com/user-attachments/assets/caf2c120-5aaa-4868-9708-31c7bfa566af" />
