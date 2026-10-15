@@ -35,9 +35,13 @@ After rebooting I congfigured the private virtual switch (AD-Static-Switch) on t
 <img width="1727" height="836" alt="image" src="https://github.com/user-attachments/assets/910a42e1-85e2-47af-9d9d-5aa6fc8b55b7" />
 
 
-I added 2 User Objects to the domain.
+I added 2 User Objects ("John Smith" & "Jane Doe") and 2 group objects ("IT DEPT" & "HR DEPT").
 <img width="544" height="472" alt="image" src="https://github.com/user-attachments/assets/97904509-d451-4b80-bb3c-2db647f80be0" />
 <img width="544" height="470" alt="image" src="https://github.com/user-attachments/assets/fa213f4b-2ad7-49d7-92b8-46afb07be4d3" />
+<img width="542" height="505" alt="image" src="https://github.com/user-attachments/assets/8baf6704-4ae4-472b-95d2-996eb395d732" />
+<img width="541" height="502" alt="image" src="https://github.com/user-attachments/assets/57c1418e-a144-4036-961c-754a9fac4660" />
+
+
 
 
 On a separate virtual machine I installed and updated Windows 11 Pro Workstation and named it "PC01".
