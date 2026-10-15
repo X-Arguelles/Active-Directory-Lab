@@ -36,10 +36,11 @@ After rebooting I congfigured the private virtual switch (AD-Static-Switch) on t
 
 
 I added 2 User Objects ("John Smith" & "Jane Doe") and 2 group objects ("IT DEPT" & "HR DEPT").
-<img width="544" height="472" alt="image" src="https://github.com/user-attachments/assets/97904509-d451-4b80-bb3c-2db647f80be0" />
-<img width="544" height="470" alt="image" src="https://github.com/user-attachments/assets/fa213f4b-2ad7-49d7-92b8-46afb07be4d3" />
-<img width="542" height="505" alt="image" src="https://github.com/user-attachments/assets/8baf6704-4ae4-472b-95d2-996eb395d732" />
-<img width="541" height="502" alt="image" src="https://github.com/user-attachments/assets/57c1418e-a144-4036-961c-754a9fac4660" />
+<img width="544" height="272" alt="image" src="https://github.com/user-attachments/assets/aab95757-e3e8-420b-a7f8-6e700790ac23" />
+<img width="544" height="278" alt="image" src="https://github.com/user-attachments/assets/c5a470c5-dc36-43c9-b71d-bf8f1d0dba16" />
+<img width="542" height="403" alt="image" src="https://github.com/user-attachments/assets/e94ebea3-73ef-4250-a738-beedcbdd0e0f" />
+<img width="541" height="407" alt="image" src="https://github.com/user-attachments/assets/12aa29d7-9337-4080-aa18-01bf5935e114" />
+
 
 
 
