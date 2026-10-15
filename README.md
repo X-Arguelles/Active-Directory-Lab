@@ -2,10 +2,9 @@
 <h2>Description:</h2>
 This project is a walkthrough of how I set up an Active Directory Home Lab using Hyper-V. I set up a Windows Server to run Active Directory, configured a Domain Controller to run a domain and added 2 users.
 
-<h2>Languages & Utilities Used:</h2>
+<h2>Utilities Used:</h2>
 
 - Active Directory
-- PowerShell
 
 <h2>Software Used:</h2>
 
@@ -36,6 +35,9 @@ After rebooting I congfigured the private virtual switch (AD-Static-Switch) on t
 <img width="1727" height="836" alt="image" src="https://github.com/user-attachments/assets/910a42e1-85e2-47af-9d9d-5aa6fc8b55b7" />
 
 
+I added 2 User Objects to the domain.
+<img width="544" height="472" alt="image" src="https://github.com/user-attachments/assets/97904509-d451-4b80-bb3c-2db647f80be0" />
+<img width="544" height="470" alt="image" src="https://github.com/user-attachments/assets/fa213f4b-2ad7-49d7-92b8-46afb07be4d3" />
 
 
 On a separate virtual machine I installed and updated Windows 11 Pro Workstation and named it "PC01".
