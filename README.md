@@ -41,7 +41,7 @@ I added 2 User Objects ("John Smith" & "Jane Doe") and 2 group objects ("IT DEPT
 <img width="542" height="403" alt="image" src="https://github.com/user-attachments/assets/e94ebea3-73ef-4250-a738-beedcbdd0e0f" />
 <img width="541" height="407" alt="image" src="https://github.com/user-attachments/assets/12aa29d7-9337-4080-aa18-01bf5935e114" />
 
-
+I added user "John Smith" to the "IT DEPT" group and user "Jane Doe" to the "HR DEPT" group.
 
 
 
