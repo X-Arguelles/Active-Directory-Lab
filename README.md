@@ -62,4 +62,6 @@ I added user "John Smith" to the "IT DEPT" group and user "Jane Doe" to the "HR 
 
 On a separate virtual machine I installed and updated Windows 11 Pro Workstation and named it "PC01".
 
+<img width="876" height="490" alt="image" src="https://github.com/user-attachments/assets/440f1280-c9ce-46cd-b7e0-55669921adf2" />
+
 
