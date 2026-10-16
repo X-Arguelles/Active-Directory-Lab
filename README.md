@@ -14,14 +14,14 @@ This project is a walkthrough of how I set up an Active Directory Home Lab using
   
 <h2>Walkthrough:</h2>
 
-I started by creating a virtual machine using Hyper-V with its own virtual disk, installing Windows Server 2025 from an ISO file, updating the OS using the Hyper-V default virtual switch as one of the virtual network adapter and named the virtual machine "DC1".
+I started by creating a virtual machine using Hyper-V with its own virtual disk, installing Windows Server 2025 from an ISO file, updating the OS using an external virtual switch attached to one of the two virtual network adapter and named the virtual machine "DC1".
 
 <img width="877" height="662" alt="image" src="https://github.com/user-attachments/assets/85bc2a84-659f-4d84-b936-03b37b6d9e83" />
 <img width="427" height="238" alt="image" src="https://github.com/user-attachments/assets/66bc89ba-42c8-4a16-b99f-f23093e59160" />
 
 
 
-I used two different virtual network adapters on the virtual machines. The default switch on Hyper-V that utilizes NAT to access my host machine's network, and a private virtual switch, that I named "AD-Static-Switch", was necessary for the Domain Controller to communicate with other virtual machines because the default network adapter would change the subnet or gateway after reboots.
+I used two different virtual network adapters on this virtual machines. One with an external virtual switch ("External-Switch") that utilizes NAT to access my host machine's network, and the second one with a private virtual switch ("AD-Static-Switch") for the Domain Controller to communicate with other virtual machines.
 
 <img width="898" height="857" alt="image" src="https://github.com/user-attachments/assets/ac2ecbbc-ba61-4f2a-b977-c0a344fcba40" />
 <img width="901" height="857" alt="image" src="https://github.com/user-attachments/assets/f5a684f1-128d-4117-b9dc-7b6026a470e9" />
