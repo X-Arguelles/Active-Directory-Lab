@@ -17,7 +17,6 @@ This project is a walkthrough of how I set up an Active Directory Home Lab using
 I started by creating a virtual machine using Hyper-V with its own virtual disk, installing Windows Server 2025 from an ISO file, updating the OS using an external virtual switch attached to one of the two virtual network adapter and named the virtual machine "DC1".
 
 <img width="877" height="662" alt="image" src="https://github.com/user-attachments/assets/85bc2a84-659f-4d84-b936-03b37b6d9e83" />
-<img width="427" height="238" alt="image" src="https://github.com/user-attachments/assets/66bc89ba-42c8-4a16-b99f-f23093e59160" />
 
 
 
