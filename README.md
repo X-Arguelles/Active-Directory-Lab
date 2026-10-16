@@ -23,7 +23,9 @@ I started by creating a virtual machine using Hyper-V with its own virtual disk,
 I used two different virtual network adapters on this virtual machines. One with an external virtual switch ("External-Switch") that utilizes NAT to access my host machine's network, and the other one with a private virtual switch ("AD-Static-Switch") for the Domain Controller to communicate with other virtual machines.
 
 <img width="898" height="472" alt="image" src="https://github.com/user-attachments/assets/7862849c-b3d0-48a8-9622-15a466d8a06e" />
-<img width="901" height="857" alt="image" src="https://github.com/user-attachments/assets/f5a684f1-128d-4117-b9dc-7b6026a470e9" />
+<img width="300" height="442" alt="image" src="https://github.com/user-attachments/assets/ff379d92-c3ec-44fb-9078-83e9da2e72bd" />
+
+
 
 
 
