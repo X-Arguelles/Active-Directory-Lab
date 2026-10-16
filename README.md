@@ -38,7 +38,8 @@ https://github.com/user-attachments/assets/8cf801ce-05fc-49bb-bc71-62fddd9c2c77
 
 After rebooting I congfigured the private virtual switch (AD-Static-Switch) on the domain controller to have a static IPv4 address (192.168.1.100), set the subnet mask to 255.255.255.0, and used the loopback address 127.0.0.1 as the DNS server.
 
-<img width="1727" height="836" alt="image" src="https://github.com/user-attachments/assets/910a42e1-85e2-47af-9d9d-5aa6fc8b55b7" />
+<img width="727" height="532" alt="image" src="https://github.com/user-attachments/assets/7b8c9487-7b37-48de-ae1e-f46b21b1f61a" />
+
 
 
 
