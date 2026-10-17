@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/c064db24-9bf1-4ac9-b480-6ad55b160802
 https://github.com/user-attachments/assets/8cf801ce-05fc-49bb-bc71-62fddd9c2c77
 
 
-After rebooting I congfigured the private virtual switch (AD-Static-Switch) on the domain controller to have a static IPv4 address (192.168.100.1), set the subnet mask to 255.255.255.0, and used the loopback address 127.0.0.1 as the DNS server.
+After rebooting I congfigured the private virtual switch ("AD-Static-Switch") on the domain controller to have a static IPv4 address (192.168.100.1), set the subnet mask to 255.255.255.0, and used the loopback address 127.0.0.1 as the DNS server.
 
 <img width="727" height="532" alt="image" src="https://github.com/user-attachments/assets/7b8c9487-7b37-48de-ae1e-f46b21b1f61a" />
 
@@ -50,7 +50,7 @@ On a separate virtual machine I installed Windows 11 Pro Workstation with only o
 
 <img width="876" height="490" alt="image" src="https://github.com/user-attachments/assets/440f1280-c9ce-46cd-b7e0-55669921adf2" />
 
-After updating the OS I removed the "External-Switch" and connected the virtual network adapter to the "AD-Static-Switch", set a static IPv4 address "192.168.100.10" and set the DNS server address to the "lab.local" domain IP address.
+After updating the OS I removed the "External-Switch" and connected the virtual network adapter to the "AD-Static-Switch", set a static IPv4 address (192.168.100.10) and set the DNS server address to the "lab.local" domain IP address (192.168.100.1).
 
 <img width="731" height="553" alt="image" src="https://github.com/user-attachments/assets/d66c228d-70ae-4913-90bc-f30ff684b008" />
 
