@@ -52,4 +52,5 @@ On a separate virtual machine I installed Windows 11 Pro Workstation with only o
 
 After updating the OS I removed the "External-Switch" and connected the virtual network adapter to the "AD-Static-Switch", set a static IPv4 address "192.168.100.10" and set the DNS server address to the "lab.local" domain IP address.
 
+<img width="731" height="553" alt="image" src="https://github.com/user-attachments/assets/d66c228d-70ae-4913-90bc-f30ff684b008" />
 
