@@ -46,8 +46,10 @@ I added user "John Smith" to the "IT DEPT" group and user "Jane Doe" to the "HR 
 <img width="496" height="225" alt="image" src="https://github.com/user-attachments/assets/6ce1d309-b3fa-41d7-a020-fbe3d7d438e5" />
 
 
-On a separate virtual machine I installed Windows 11 Pro Workstation with only one network adapter connected to an external virtual switch to update the OS, and named it "PC1". After updating I removed the "External-Switch" and connected it to the "AD-Static-Switch", and configured the DNS to the IP address of the Active Directory domain "lab.local".
+On a separate virtual machine I installed Windows 11 Pro Workstation with only one network adapter connected to an external virtual switch to update the OS, and named it "PC1".
 
 <img width="876" height="490" alt="image" src="https://github.com/user-attachments/assets/440f1280-c9ce-46cd-b7e0-55669921adf2" />
+
+After updating the OS I removed the "External-Switch" and connected the virtual network adapter to the "AD-Static-Switch", set a static IPv4 address "192.168.100.10" and set the DNS server address to the "lab.local" domain IP address.
 
 
