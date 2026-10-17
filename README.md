@@ -20,9 +20,6 @@ I started by creating a virtual machine using Hyper-V with its own virtual disk,
 <img width="300" height="442" alt="image" src="https://github.com/user-attachments/assets/ff379d92-c3ec-44fb-9078-83e9da2e72bd" />
 
 
-
-
-
 Using Server Manager I installed Active Directory Domain Services with the Add Roles and Features Wizard. I promoted the server to a domain controller using the Active Directory Domain Services Configuration Wizard then added a new forest and domain named "lab.local".
 
 https://github.com/user-attachments/assets/c064db24-9bf1-4ac9-b480-6ad55b160802
@@ -30,12 +27,9 @@ https://github.com/user-attachments/assets/c064db24-9bf1-4ac9-b480-6ad55b160802
 https://github.com/user-attachments/assets/8cf801ce-05fc-49bb-bc71-62fddd9c2c77
 
 
-
 After rebooting I congfigured the private virtual switch (AD-Static-Switch) on the domain controller to have a static IPv4 address (192.168.1.100), set the subnet mask to 255.255.255.0, and used the loopback address 127.0.0.1 as the DNS server.
 
 <img width="727" height="532" alt="image" src="https://github.com/user-attachments/assets/7b8c9487-7b37-48de-ae1e-f46b21b1f61a" />
-
-
 
 
 I added 2 User Objects ("John Smith" & "Jane Doe") and 2 group objects ("IT DEPT" & "HR DEPT").
@@ -46,17 +40,13 @@ I added 2 User Objects ("John Smith" & "Jane Doe") and 2 group objects ("IT DEPT
 <img width="541" height="407" alt="image" src="https://github.com/user-attachments/assets/12aa29d7-9337-4080-aa18-01bf5935e114" />
 
 
-
 I added user "John Smith" to the "IT DEPT" group and user "Jane Doe" to the "HR DEPT" group.
 
 <img width="497" height="229" alt="image" src="https://github.com/user-attachments/assets/0e169435-dce7-49d0-8da1-6c14b623fd7a" />
 <img width="496" height="225" alt="image" src="https://github.com/user-attachments/assets/6ce1d309-b3fa-41d7-a020-fbe3d7d438e5" />
 
 
-
-
-
-On a separate virtual machine I installed Windows 11 Pro Workstation with only one network adapter connected to the default virtual switch on Hyper-V to update the OS, and named it "PC1". After updating I removed the default virtual switch and connected it to the "AD-Static-Switch", and configured the DNS to the Active Directory domain IP address.
+On a separate virtual machine I installed Windows 11 Pro Workstation with only one network adapter connected to an external virtual switch to update the OS, and named it "PC1". After updating I removed the "External-Switch" and connected it to the "AD-Static-Switch", and configured the DNS to the IP address of the Active Directory domain "lab.local".
 
 <img width="876" height="490" alt="image" src="https://github.com/user-attachments/assets/440f1280-c9ce-46cd-b7e0-55669921adf2" />
 
