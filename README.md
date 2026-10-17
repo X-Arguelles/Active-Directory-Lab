@@ -54,3 +54,4 @@ After updating the OS I removed the "External-Switch" and connected the virtual 
 
 <img width="731" height="553" alt="image" src="https://github.com/user-attachments/assets/d66c228d-70ae-4913-90bc-f30ff684b008" />
 
+https://github.com/user-attachments/assets/2c5ad38c-b36a-4873-ba02-28f097619f1b
