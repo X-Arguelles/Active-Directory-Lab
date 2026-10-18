@@ -49,6 +49,8 @@ I added user "John Smith" to the "IT DEPT" group and user "Jane Doe" to the "HR 
 I started up two new virtual machine I installed Windows 11 Pro Workstation with only one network adapter connected to an external virtual switch to update the OS on both, and named them "PC1" for user "John Smith" & "PC2" for user "Jane Doe".
 
 <img width="876" height="490" alt="image" src="https://github.com/user-attachments/assets/440f1280-c9ce-46cd-b7e0-55669921adf2" />
+<img width="662" height="356" alt="image" src="https://github.com/user-attachments/assets/c26f2a73-240c-4fd4-bbc3-971e7b579e85" />
+
 
 After updating the OS I disconnected the "External-Switch" and connected both VM's virtual network adapters on each VM to the "AD-Static-Switch", set a static IPv4 address for "PC1"(192.168.100.10) and one for "PC2" (192.168.100.11) set the DNS server address to the "lab.local" domain IP address (192.168.100.1) on both.
 
