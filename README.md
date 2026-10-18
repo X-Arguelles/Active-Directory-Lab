@@ -14,7 +14,7 @@ This project is a walkthrough of how I set up an Active Directory Home Lab using
   
 <h2>Walkthrough:</h2>
 
-I started by creating a virtual machine using Hyper-V with its own virtual disk, installing Windows Server 2025 from an ISO file, updating the OS and named the virtual machine "DC1". I used two different virtual network adapters on this virtual machines. One with an external virtual switch ("External-Switch") that utilizes NAT to access my host machine's network, and the other one with a private virtual switch ("AD-Static-Switch") for the Domain Controller to communicate with other virtual machines.
+I started by creating a virtual machine using Hyper-V with its own virtual disk, installing Windows Server 2025 from an ISO file, updating the OS and named the virtual machine "DC1". I used two different virtual network adapters on this virtual machine. One connected to an external virtual switch ("External-Switch") that utilizes NAT to access my host machine's network, and the other one to a private virtual switch ("AD-Static-Switch") for the Domain Controller to communicate with other virtual machines.
 
 <img width="875" height="485" alt="image" src="https://github.com/user-attachments/assets/aa361632-14b7-4c8f-b099-0ea76bf2fce2" />
 <img width="300" height="442" alt="image" src="https://github.com/user-attachments/assets/ff379d92-c3ec-44fb-9078-83e9da2e72bd" />
@@ -46,11 +46,11 @@ I added user "John Smith" to the "IT DEPT" group and user "Jane Doe" to the "HR 
 <img width="496" height="225" alt="image" src="https://github.com/user-attachments/assets/6ce1d309-b3fa-41d7-a020-fbe3d7d438e5" />
 
 
-On a separate virtual machine I installed Windows 11 Pro Workstation with only one network adapter connected to an external virtual switch to update the OS, and named it "PC1".
+I started up two new virtual machine I installed Windows 11 Pro Workstation with only one network adapter connected to an external virtual switch to update the OS on both, and named them "PC1" for user "John Smith" & "PC2" for user "Jane Doe".
 
 <img width="876" height="490" alt="image" src="https://github.com/user-attachments/assets/440f1280-c9ce-46cd-b7e0-55669921adf2" />
 
-After updating the OS I removed the "External-Switch" and connected the virtual network adapter to the "AD-Static-Switch", set a static IPv4 address (192.168.100.10) and set the DNS server address to the "lab.local" domain IP address (192.168.100.1).
+After updating the OS I disconnected the "External-Switch" and connected both VM's virtual network adapters on each VM to the "AD-Static-Switch", set a static IPv4 address for "PC1"(192.168.100.10) and one for "PC2" (192.168.100.11) set the DNS server address to the "lab.local" domain IP address (192.168.100.1) on both.
 
 <img width="731" height="553" alt="image" src="https://github.com/user-attachments/assets/d66c228d-70ae-4913-90bc-f30ff684b008" />
 
