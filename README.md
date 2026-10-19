@@ -59,3 +59,9 @@ After updating the OS I disconnected the "External-Switch" and connected both VM
 I joined both users and computers to the Active Directory domain.
 
 https://github.com/user-attachments/assets/2c5ad38c-b36a-4873-ba02-28f097619f1b
+
+
+
+https://github.com/user-attachments/assets/4380f87d-8ebe-4c9b-969c-66f745be94e2
+
+
