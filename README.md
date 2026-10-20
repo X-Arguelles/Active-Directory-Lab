@@ -56,22 +56,18 @@ After updating the OS I disconnected the "External-Switch" and connected both VM
 
 <img width="731" height="553" alt="image" src="https://github.com/user-attachments/assets/d66c228d-70ae-4913-90bc-f30ff684b008" />
 
+
 I joined both users and computers to the Active Directory domain.
 
 https://github.com/user-attachments/assets/2c5ad38c-b36a-4873-ba02-28f097619f1b
-
-
-
-
 
 https://github.com/user-attachments/assets/e506b037-3e5c-4d55-9418-983ec31e7377
 
 <img width="937" height="657" alt="Screenshot 2026-10-19 123928" src="https://github.com/user-attachments/assets/fbac3024-6288-40d6-8b00-68f3e20ae9bc" />
 
-Created a new Group Policy Object named " Enable Remote Desktop".
+
+I created a new Group Policy Object named " Enable Remote Desktop" and enabled remote desktop services.
 <img width="481" height="225" alt="image" src="https://github.com/user-attachments/assets/02deabb5-23b6-4673-9607-365b24b4556f" />
-
-
 
 https://github.com/user-attachments/assets/daddf57c-5a7e-4b4a-8ac5-cd9727aced92
 
