@@ -1,3 +1,5 @@
+
+
 # Active-Directory-Lab
 <h2>Description:</h2>
 This project is a walkthrough of how I set up an Active Directory Home Lab using Hyper-V. I set up a Windows Server to run Active Directory, configured a Domain Controller to run a domain and added 2 users.
@@ -71,3 +73,7 @@ I created a new Group Policy Object, enabled Remote Desktop Services and Network
 
 https://github.com/user-attachments/assets/7054ab99-5bf8-400c-811c-4d680f917095
 
+<img width="778" height="352" alt="Screenshot 2026-10-20 020559" src="https://github.com/user-attachments/assets/083b0a51-8ecf-4b07-a7fc-14f171f90e9a" />
+
+
+https://github.com/user-attachments/assets/e0e1ec6b-50a6-4820-b85e-534bf51f3967
