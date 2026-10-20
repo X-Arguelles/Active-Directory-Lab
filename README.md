@@ -69,5 +69,9 @@ https://github.com/user-attachments/assets/e506b037-3e5c-4d55-9418-983ec31e7377
 I created a new Group Policy Object named " Enable Remote Desktop" and enabled remote desktop services.
 <img width="481" height="225" alt="image" src="https://github.com/user-attachments/assets/02deabb5-23b6-4673-9607-365b24b4556f" />
 
-https://github.com/user-attachments/assets/daddf57c-5a7e-4b4a-8ac5-cd9727aced92
+
+
+https://github.com/user-attachments/assets/7054ab99-5bf8-400c-811c-4d680f917095
+
+
 
