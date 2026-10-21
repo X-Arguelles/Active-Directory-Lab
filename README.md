@@ -82,3 +82,5 @@ Finally I checked that the GPO settings were applied and made sure that I could 
 <img width="940" height="645" alt="image" src="https://github.com/user-attachments/assets/d95ff590-73ed-40bc-8db2-999f06dd6b04" />
 
 https://github.com/user-attachments/assets/d4c56986-eea4-4ff3-bcb5-cadb70453f6d
+
+https://github.com/user-attachments/assets/fbe332f7-795b-49b4-aae8-99d32d4fd079
