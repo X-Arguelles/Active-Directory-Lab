@@ -80,3 +80,5 @@ https://github.com/user-attachments/assets/e0e1ec6b-50a6-4820-b85e-534bf51f3967
 Finally I checked that the GPO settings were applied and made sure that I could connect to PC1 and PC2 with the Administrator account.
 
 <img width="940" height="645" alt="image" src="https://github.com/user-attachments/assets/d95ff590-73ed-40bc-8db2-999f06dd6b04" />
+
+https://github.com/user-attachments/assets/d4c56986-eea4-4ff3-bcb5-cadb70453f6d
