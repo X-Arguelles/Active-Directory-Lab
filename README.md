@@ -68,12 +68,12 @@ https://github.com/user-attachments/assets/e506b037-3e5c-4d55-9418-983ec31e7377
 <img width="937" height="657" alt="Screenshot 2026-10-19 123928" src="https://github.com/user-attachments/assets/fbac3024-6288-40d6-8b00-68f3e20ae9bc" />
 
 
-I created a new Group Policy Object, enabled Remote Desktop Services and Network Level Authentication.
+I created a new Group Policy Object in which I enabled Remote Desktop Services, enabled Network Level Authentication and created a new inbound rule to allow connections through port 3389.
+
 <img width="481" height="225" alt="image" src="https://github.com/user-attachments/assets/02deabb5-23b6-4673-9607-365b24b4556f" />
 
 https://github.com/user-attachments/assets/7054ab99-5bf8-400c-811c-4d680f917095
 
-<img width="778" height="352" alt="Screenshot 2026-10-20 020559" src="https://github.com/user-attachments/assets/083b0a51-8ecf-4b07-a7fc-14f171f90e9a" />
-
-
 https://github.com/user-attachments/assets/e0e1ec6b-50a6-4820-b85e-534bf51f3967
+
+<img width="778" height="352" alt="Screenshot 2026-10-20 020559" src="https://github.com/user-attachments/assets/083b0a51-8ecf-4b07-a7fc-14f171f90e9a" />
