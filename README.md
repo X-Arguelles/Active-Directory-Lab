@@ -1,6 +1,6 @@
 # Active-Directory-Lab
 <h2>Description:</h2>
-This project is a walkthrough of how I set up an Active Directory Home Lab using Hyper-V. I set up a Windows Server to run Active Directory, configured a Domain Controller to run a domain and added 2 users.
+This project is a walkthrough of how I set up an Active Directory Home Lab using Hyper-V. I set up a Windows Server to run Active Directory, configured a Domain Controller to run a domain and added 2 users, 2 groups and enabled Remote Desktop Services.
 
 <h2>Utilities Used:</h2>
 
