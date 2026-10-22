@@ -1,6 +1,6 @@
 # Active-Directory-Lab
 <h2>Description:</h2>
-This project is a walkthrough of how I set up an Active Directory Home Lab using Hyper-V. I set up a Windows Server to run Active Directory, configured a Domain Controller to run a domain. I also added 2 users, 2 groups and enabled Remote Desktop Services.
+This project is a walkthrough of how I set up an Active Directory Home Lab using Hyper-V. I set up a Windows Server to run Active Directory, configured a Domain Controller to run a domain. I also added 2 users, 2 groups, and enabled Remote Desktop Services.
 
 <h2>Utilities Used:</h2>
 
@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/c064db24-9bf1-4ac9-b480-6ad55b160802
 https://github.com/user-attachments/assets/8cf801ce-05fc-49bb-bc71-62fddd9c2c77
 
 
-After rebooting I congfigured the private virtual switch ("AD-Static-Switch") on the domain controller to have a static IPv4 address (192.168.100.1), set the subnet mask to 255.255.255.0, and used the loopback address 127.0.0.1 as the DNS server.
+After rebooting I configured the private virtual switch ("AD-Static-Switch") on the domain controller to have a static IPv4 address (192.168.100.1), set the subnet mask to 255.255.255.0, and used the loopback address 127.0.0.1 as the DNS server.
 
 <img width="727" height="532" alt="image" src="https://github.com/user-attachments/assets/7b8c9487-7b37-48de-ae1e-f46b21b1f61a" />
 
@@ -46,7 +46,7 @@ I added user "John Smith" to the "IT DEPT" group and user "Jane Doe" to the "HR 
 <img width="496" height="225" alt="image" src="https://github.com/user-attachments/assets/6ce1d309-b3fa-41d7-a020-fbe3d7d438e5" />
 
 
-I started up two new virtual machine I installed Windows 11 Pro Workstation with only one network adapter connected to an external virtual switch to update the OS on both, and named them "PC1" for user "John Smith" & "PC2" for user "Jane Doe".
+I started up two new virtual machines I installed Windows 11 Pro Workstation with only one network adapter connected to an external virtual switch to update the OS on both and named them "PC1" for user "John Smith" & "PC2" for user "Jane Doe".
 
 <img width="876" height="490" alt="image" src="https://github.com/user-attachments/assets/440f1280-c9ce-46cd-b7e0-55669921adf2" />
 <img width="662" height="356" alt="image" src="https://github.com/user-attachments/assets/c26f2a73-240c-4fd4-bbc3-971e7b579e85" />
@@ -66,7 +66,7 @@ https://github.com/user-attachments/assets/e506b037-3e5c-4d55-9418-983ec31e7377
 <img width="937" height="657" alt="Screenshot 2026-10-19 123928" src="https://github.com/user-attachments/assets/fbac3024-6288-40d6-8b00-68f3e20ae9bc" />
 
 
-I created a new Group Policy Object in which I enabled Remote Desktop Services, enabled Network Level Authentication, created a new inbound rule to allow connections through port 3389 and applied the Group Policy settings using Powershell.
+I created a new Group Policy Object in which I enabled Remote Desktop Services, enabled Network Level Authentication, created a new inbound rule to allow connections through port 3389 and applied the Group Policy settings using PowerShell.
 
 <img width="481" height="225" alt="image" src="https://github.com/user-attachments/assets/02deabb5-23b6-4673-9607-365b24b4556f" />
 
@@ -77,7 +77,7 @@ https://github.com/user-attachments/assets/e0e1ec6b-50a6-4820-b85e-534bf51f3967
 <img width="778" height="352" alt="Screenshot 2026-10-20 020559" src="https://github.com/user-attachments/assets/083b0a51-8ecf-4b07-a7fc-14f171f90e9a" />
 
 
-Finally I checked that the GPO settings were applied and made sure that I could connect to PC1 and PC2 with the Administrator account.
+Lastly, I checked that the GPO settings were applied and made sure that I could connect to PC1 and PC2 with the Administrator account.
 
 <img width="940" height="645" alt="image" src="https://github.com/user-attachments/assets/d95ff590-73ed-40bc-8db2-999f06dd6b04" />
 
